@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-image: url(/assets/img/background.jpg);
+    background-image: url(../assets/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
@@ -70,7 +70,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(/assets/img/unchecked.png);
+    background-image: url(../assets/img/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -83,7 +83,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(/assets/img/checked.png);
+    background-image: url(../assets/img/checked.png);
 }
 
 ul li span{
